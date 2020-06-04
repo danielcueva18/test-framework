@@ -7,7 +7,6 @@ const forbiddenDirs = ['node_modules'];
 class Runner {
     constructor() {
         this.testFiles = [];
-
     }
 
     async runTests() {
